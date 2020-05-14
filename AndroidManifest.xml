@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.daffafzn.belajarmembaca">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BelajarActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".HurufActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AngkaActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MengejaActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".KuisTebakGambarActivity"
+            android:screenOrientation="landscape" />
+
+
+
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+
+        <activity android:name=".MainActivity" android:screenOrientation="landscape"></activity>
+    </application>
+
+</manifest>

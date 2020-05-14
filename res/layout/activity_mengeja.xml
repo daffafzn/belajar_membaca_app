@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_mengeja"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context="com.daffafzn.belajarmembaca.MengejaActivity">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="1dp"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:scrollbarSize="0dp"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp">
+
+
+            <ImageButton
+                android:id="@+id/ejatupai"
+                android:layout_width="80dp"
+                android:layout_height="53dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/ejatupai" />
+
+            <ImageButton
+                android:id="@+id/ejaserigala"
+                android:layout_width="99dp"
+                android:layout_height="55dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/ejaserigala" />
+
+            <ImageButton
+                android:id="@+id/ejaular"
+                android:layout_width="53dp"
+                android:layout_height="55dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/ejaulaar" />
+
+            <ImageButton
+                android:id="@+id/ejasapi"
+                android:layout_width="93dp"
+                android:layout_height="53dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/ejasapi" />
+
+            <ImageButton
+                android:id="@+id/ejarusa"
+                android:layout_width="68dp"
+                android:layout_height="54dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/ejarusa" />
+
+            <ImageButton
+                android:id="@+id/ejagajah"
+                android:layout_width="87dp"
+                android:layout_height="56dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/ejagajah" />
+
+            <ImageButton
+                android:id="@+id/ejakuda"
+                android:layout_width="86dp"
+                android:layout_height="54dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/ejakuda" />
+
+            <ImageButton
+                android:id="@+id/ejakudanil"
+                android:layout_width="115dp"
+                android:layout_height="55dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/ejabadak" />
+
+            <ImageButton
+                android:id="@+id/ejaberuang"
+                android:layout_width="105dp"
+                android:layout_height="53dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/ejaberuang" />
+
+            <ImageButton
+                android:id="@+id/ejazebra"
+                android:layout_width="81dp"
+                android:layout_height="58dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/ejazebra" />
+
+            <ImageButton
+                android:id="@+id/ejarubah"
+                android:layout_width="108dp"
+                android:layout_height="54dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/ejarubah" />
+
+
+            <ImageButton
+                android:id="@+id/ejadomba"
+                android:layout_width="86dp"
+                android:layout_height="59dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/ejadomba" />
+
+            <ImageButton
+                android:id="@+id/ejaunta"
+                android:layout_width="94dp"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/ejaunta" />
+
+            <ImageButton
+                android:id="@+id/ejajerapah"
+                android:layout_width="50dp"
+                android:layout_height="62dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/ejajerapah" />
+
+            <ImageButton
+                android:id="@+id/ejakelinci"
+                android:layout_width="76dp"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/ejakelinci" />
+
+            <ImageButton
+                android:id="@+id/ejababi"
+                android:layout_width="92dp"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/ejababi" />
+
+            <ImageButton
+                android:id="@+id/ejakambing"
+                android:layout_width="85dp"
+                android:layout_height="59dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/ejakambing" />
+
+            <ImageButton
+                android:id="@+id/ejamacan"
+                android:layout_width="114dp"
+                android:layout_height="64dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/ejamacan" />
+
+
+
+
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ImageView
+        android:id="@+id/tampil_mengeja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/tebakbunga" />
+
+    <ImageButton
+        android:id="@+id/help"
+        android:layout_width="38dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/buttonhelp" />
+
+    <ImageButton
+        android:id="@+id/button_back"
+        android:layout_width="71dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/buttonback" />
+
+
+</RelativeLayout>
